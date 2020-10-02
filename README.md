@@ -1,6 +1,6 @@
 # Tutorial for Food Log
 
-[note](https://hackmd.io/@vS1SSIM7SrqjSnCSRUJtbg/BJd18IEUv)
+[note] (https://hackmd.io/@vS1SSIM7SrqjSnCSRUJtbg/BJd18IEUv)
 
 https://www.youtube.com/watch?v=B3Fbujmgo60
 

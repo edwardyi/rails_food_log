@@ -10,7 +10,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160609220802) do
+ActiveRecord::Schema.define(version: 20201002075344) do
+
+  create_table "entries", force: :cascade do |t|
+    t.string "meal_type"
+    t.integer "calories"
+    t.integer "proteins"
+    t.integer "carbonhydrates"
+    t.integer "fats"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "microposts", force: :cascade do |t|
     t.text "content"
