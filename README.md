@@ -1,3 +1,9 @@
+# Tutorial for Food Log
+
+[note](https://hackmd.io/@vS1SSIM7SrqjSnCSRUJtbg/BJd18IEUv)
+
+https://www.youtube.com/watch?v=B3Fbujmgo60
+
 # Ruby on Rails Tutorial sample application
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/gitpod-io/railstutorial_sample_app_4th_ed)
