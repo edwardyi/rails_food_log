@@ -3,6 +3,9 @@
   <head>
     <title><%= full_title(yield(:title)) %></title>
     <%= csrf_meta_tags %>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+
     <%= stylesheet_link_tag    'application', media: 'all',
                                               'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
@@ -10,6 +13,13 @@
   </head>
   <body>
     <%= render 'layouts/header' %>
+
+    <% if notice.present? %>
+        <div class="notification is-link is-light"><%= notice %></div>
+    <% end %>
+    <% if alert.present? %>
+        <div id="notification is-danger is-link"><%= alert %></div>
+    <% end %>
     <div class="container">
       <% flash.each do |message_type, message| %>
         <div class="alert alert-<%= message_type %>"><%= message %></div>
